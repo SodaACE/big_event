@@ -1,48 +1,45 @@
-*{
-    padding: 0;
-    margin: 0;
+.layui-footer {
+    text-align: center;
+    font-size: 12px;
 }
-html{
-    background: url(../images/login_bg.jpg)no-repeat center;
-    background-size: cover;
+.iconfont {
+    margin-right: 8px;
+}
+iframe {
     width: 100%;
     height: 100%;
 }
-.loginAndRegBox {
-    width: 400px;
-    height: 310px;
-    background-color: #fff;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+.layui-body {
+    overflow: hidden;
 }
-.title-box {
+a{
+    transition: none!important;
+}
+.userinfo {
     height: 60px;
-    background: url(../images/login_title.png)no-repeat center;
-}
-.reg_box {
-    display: none;
-}
-.layui-form {
-    padding: 0 30px;
-}
-.links {
-    display: flex;
-    justify-content: flex-end;
-}
-.links a {
+    line-height: 60px;
+    text-align: center;
     font-size: 12px;
+    user-select: none;
 }
-.layui-form-item {
+.layui-side-scroll .userinfo {
+    border-bottom: 1px solid #282b33;
+}
+.layui-nav-img {
+    width: 40px;
+    height: 40px;
+}
+.text-avatar {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #009688;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
     position: relative;
-}
-.layui-icon {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    font-weight:bold;
-}
-.layui-input {
-    padding-left: 32px!important;
+    top: 4px;
+    margin-right: 10px;
 }
